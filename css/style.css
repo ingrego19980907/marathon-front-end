@@ -3,12 +3,89 @@ body {
   background-color: #e5e5e5;
 }
 
-li {
-  background-color: #fff;
-  color: #595959;
+.about-me-profession {
   font-size: 14px;
-  line-height: 24px;
+  font-weight: 700;
+  color: #000;
 }
 
-.projects-item {
+.main-conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+.main-content-section {
+}
+.about_me_section {
+}
+.my_projects_section {
+}
+
+.my_work_experience_section {
+}
+.my_education_section {
+}
+
+/*  sidebar section */
+.sidebar-section {
+  background-color: #1e2939;
+  width: 370px;
+  padding: 40px 0;
+}
+
+.soft_skils_section,
+.contacts_section,
+.tech_skils_section {
+  margin: 50px 0 0 40px;
+}
+
+.sidebar_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Contacts section */
+.contacts_section_type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 5px;
+}
+.contacts_section_link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8e949c;
+}
+
+/*  Tech skils list section */
+.tech_skils_list,
+.soft_skils_list {
+  padding: 0 0 0 20px;
+}
+
+.soft_skils_item,
+.tech_skils_item {
+  color: #fb6d3a;
+}
+
+.soft_skils_item_text,
+.tech_skils_item_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
 }
