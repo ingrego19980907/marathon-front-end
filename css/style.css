@@ -88,7 +88,37 @@ body {
   color: #000;
 }
 
+/*  My work experience */
 .my_work_experience_section {
+}
+
+.my_work_experienc_company {
+  color: #fb6d3a;
+}
+.my_work_experience_job_position {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.my_work_experience_time {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my_work_experience_diveder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
 }
 .my_education_section {
 }
