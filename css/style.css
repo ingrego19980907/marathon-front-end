@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
 }
-
+/*  Main contant section */
 .about-me-profession {
   font-size: 14px;
   font-weight: 700;
@@ -17,6 +17,7 @@ body {
   margin: 40px auto;
 }
 .main-content-section {
+  padding: 100px 90px;
 }
 .about_me_section {
 }
